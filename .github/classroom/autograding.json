@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "test_ab",
+      "name": "test_one",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_pytest.py::test_ab",
+      "run": "pytest test_pytest.py::test_one",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -11,9 +11,9 @@
       "points": 1
     },
     {
-      "name": "test_abc",
+      "name": "test_two",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_pytest.py::test_abc",
+      "run": "pytest test_pytest.py::test_two",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -21,9 +21,19 @@
       "points": 1
     },
     {
-      "name": "test_twoX",
+      "name": "test_three",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_pytest.py::test_twoX",
+      "run": "pytest test_pytest.py::test_three",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_four",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_pytest.py::test_four",
       "input": "",
       "output": "",
       "comparison": "exact",
