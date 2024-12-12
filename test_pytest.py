@@ -1,4 +1,4 @@
-import main    # The code to test
+import module  # The code to test
 
 def test_one():
     assert main.only([1,2,3,4,5],1,3) == False
